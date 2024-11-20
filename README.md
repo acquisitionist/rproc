@@ -45,7 +45,7 @@ rproc filter ./reddit_data ./output --field subreddit --value "crypto" --partial
 
 ```bash
 # Convert submissions to CSV
-rproc csv ./reddit_data ./output.csv
+rproc csv ./reddit_data ./output
 ```
 
 ## Common Use Cases
