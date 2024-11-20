@@ -103,7 +103,6 @@ func init() {
 }
 
 // preRun initializes all dependencies before command execution
-// preRun initializes all dependencies before command execution
 func preRun(cmd *cobra.Command, args []string) error {
 	if len(args) < 2 {
 		return errors.New("input and output directories are required")
