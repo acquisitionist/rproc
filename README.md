@@ -13,11 +13,7 @@ RProc is a command-line tool for processing Reddit data dumps in zstd-compressed
 
 ## Installation
 
-```bash
-go install github.com/acquisitionist/rproc@latest
-```
-
-Or clone and build from source:
+Clone and build from source:
 ```bash
 git clone https://github.com/acquisitionist/rproc.git
 cd rproc
