@@ -97,9 +97,6 @@ func init() {
 	if err := filterCmd.MarkFlagRequired("field"); err != nil {
 		panic(fmt.Sprintf("failed to mark 'field' flag as required: %v", err))
 	}
-	if err := filterCmd.MarkFlagRequired("value"); err != nil {
-		panic(fmt.Sprintf("failed to mark 'value' flag as required: %v", err))
-	}
 }
 
 // preRun initializes all dependencies before command execution
